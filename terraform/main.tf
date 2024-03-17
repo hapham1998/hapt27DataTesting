@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "qa-community-${var.your_account}-backend-s3"
+    bucket = "qa-community-hapt27-backend-s3"
     key    = "terraform/tf.state"
     region = "us-east-1"
   }
